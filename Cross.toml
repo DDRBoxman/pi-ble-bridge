@@ -1,0 +1,7 @@
+[target.arm-unknown-linux-gnueabihf]
+image = "ddrboxman/rustcross:dbus-armhf"
+
+[build.env]
+passthrough = [
+	"RUSTFLAGS",
+]
